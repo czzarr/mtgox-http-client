@@ -1,0 +1,39 @@
+{
+  "name": "mtgox-http-client",
+  "version": "0.0.0",
+  "description": "HTTP client for MtGox's API",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/czzarr/mtgox-http-client.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "mtgox",
+    "api",
+    "http",
+    "client"
+  ],
+  "author": "Stanislas Marion <stanislas.marion@gmail.com> (http://github.com/czzarr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/czzarr/mtgox-http-client/issues"
+  },
+  "homepage": "https://github.com/czzarr/mtgox-http-client",
+  "dependencies": {
+    "request": "~2.34.0"
+  },
+  "devDependencies": {
+    "underscore": "~1.6.0",
+    "chai": "~1.9.0",
+    "mocha": "~1.17.1",
+    "socket.io-client": "~0.9.16",
+    "mtgox-currency": "~0.2.0"
+  }
+}
